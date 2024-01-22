@@ -30,10 +30,10 @@ export default function NewProject({ onAddProject, onStopAddProject }) {
 
     return (
         <>
-        <Modal ref={modalRef} btnCaption={"Ok"}>
-            <h2 className="text-xl font-bold text-stone-700 my-4">Erreur de saisie</h2>
-            <p className="text-stone-600 mb-4">Chaque champ doit être rempli</p>
-        </Modal>
+            <Modal ref={modalRef} btnCaption={"Ok"}>
+                <h2 className="text-xl font-bold text-stone-700 my-4">Erreur de saisie</h2>
+                <p className="text-stone-600 mb-4">Chaque champ doit être rempli</p>
+            </Modal>
             <div className="w-[35rem] mt-16" >
                 <menu className="flex items-center justify-end gap-4 my-4">
                     <li>
